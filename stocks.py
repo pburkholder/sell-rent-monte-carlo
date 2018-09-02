@@ -61,7 +61,3 @@ plt.axhline(y= last_price, color = 'r', linestyle = '-')
 plt.xlabel('day')
 plt.ylabel('price')
 plt.show
-
-aa_milne_arr = ['pooh', 'rabbit', 'piglet', 'Christopher']
-np.random.choice(aa_milne_arr, 20, p=[0.8, 0.1, 0.05, 0.05])
-np.random.choice(aa_milne_arr, 20)
